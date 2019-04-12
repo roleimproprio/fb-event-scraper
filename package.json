@@ -3,5 +3,11 @@
     "cheerio": "^1.0.0-rc.3",
     "puppeteer": "^1.14.0",
     "scrape-it": "^5.1.4"
+  },
+  "scripts": {
+    "test": "ava"
+  },
+  "devDependencies": {
+    "ava": "^1.4.1"
   }
 }

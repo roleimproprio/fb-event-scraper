@@ -102,8 +102,7 @@ const scrapEvent = async (fbEventUrl) => {
     },
   });
 
-  data.url = fbEventUrl;
-  return data;
+  return Object.assign({ url: fbEventUrl }, data);
 };
 
 /**
